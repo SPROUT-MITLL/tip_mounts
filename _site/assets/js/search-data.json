@@ -1,0 +1,50 @@
+{"0": {
+    "doc": "Build Instructions",
+    "title": "General Guidelines",
+    "content": " ",
+    "url": "/Build_Instructions.html#general-guidelines",
+    "relUrl": "/Build_Instructions.html#general-guidelines"
+  },"1": {
+    "doc": "Build Instructions",
+    "title": "MORE COMING SOON",
+    "content": " ",
+    "url": "/Build_Instructions.html#more-coming-soon",
+    "relUrl": "/Build_Instructions.html#more-coming-soon"
+  },"2": {
+    "doc": "Build Instructions",
+    "title": "Build Instructions",
+    "content": " ",
+    "url": "/Build_Instructions.html",
+    "relUrl": "/Build_Instructions.html"
+  },"3": {
+    "doc": "Gallery",
+    "title": "COMING SOON",
+    "content": " ",
+    "url": "/Gallery.html#coming-soon",
+    "relUrl": "/Gallery.html#coming-soon"
+  },"4": {
+    "doc": "Gallery",
+    "title": "Gallery",
+    "content": " ",
+    "url": "/Gallery.html",
+    "relUrl": "/Gallery.html"
+  },"5": {
+    "doc": "Home",
+    "title": "Gotta Grow Fast: Optimized Tip Mount &amp; Benchmarking Methods for Growing Vine Robots",
+    "content": "Anonymous Authors ",
+    "url": "/",
+    "relUrl": "/"
+  },"6": {
+    "doc": "Home",
+    "title": "Abstract",
+    "content": "Soft, growing vine robots extend through tip eversion, a mechanism that enables navigation in cluttered environments. However, this growth process complicates the integration of cameras and other sensors due to friction between internal layers, added tip weight, and fabric constriction. These limitations hinder the deployment of vine robots for inspection and search tasks, where tip-based sensing is critical. In this work, we present a novel camera mount featuring a triangular cross-sectional roller assembly that reduces internal resistance during growth. The design was refined through iterative failure analysis, enabling the consistent operation of a vine robot fabricated from TPU-coated ripstop nylon. To quantitatively evaluate and compare mount designs, we introduce a custom testbed that isolates tip-mounting effects by measuring tail tension during eversion. Comparative experiments across multiple mount variants, including prior designs, show that our triangular roller mount achieves the lowest tail tension and the most repeatable performance. These results establish both a validated mount design and a repeatable benchmarking method for advancing tip-sensor integration in soft growing robots. A complete parts manifest for both the optimized camera mount and the benchmark testbed are available on this site. Mount Overview . ",
+    "url": "/",
+    "relUrl": "/"
+  },"7": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "Gotta Grow Fast: Optimized Tip Mount &amp; Benchmarking Methods for Growing Vine Robots . ",
+    "url": "/",
+    "relUrl": "/"
+  }
+}

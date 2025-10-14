@@ -1,0 +1,31 @@
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
+title: Gotta Grow Fast
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+aux_links:
+  "CAD Files":
+    - "https://github.com/SPROUT-MITLL/tip_mounts"
+
+nav_external_links:
+  - title: Mounts on GitHub
+    url: https://github.com/SPROUT-MITLL/tip_mounts
+
+back_to_top: true
+back_to_top_text: "Back to top"
+

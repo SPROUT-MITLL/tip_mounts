@@ -39,17 +39,10 @@ permalink: /
       <p>Correspondence: nhanson2 [@] mit [.] edu</p> -->
     </div>
   </div>
-  <div>
-    <div style="position:relative;padding-top:56.25%;">
-      <iframe src="https://www.youtube.com/embed/DaMCTH4qZTE?si=0xeLOIrXwMXaNRI" 
-              title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen 
-              style="position:absolute;top:0;left:0;width:100%;height:100%;">
-      </iframe>
-    </div>
-  </div>
+  <video width="600" controls>
+    <source src="media/gotta_grow_fast_v2.mp4" type="video/mp4">
+  </video>
+
 
   <h2>Abstract</h2>
   <p>

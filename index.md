@@ -1,10 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
-description: "Gotta Grow Fast"
-permalink: /
----
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
@@ -22,6 +15,7 @@ permalink: /
           Anonymous Authors
         </strong>
     </div>
+    <p><p>
   </div>
   <video width="1000" controls>
     <source src="media/gotta_grow_fast_v2.mp4" type="video/mp4">

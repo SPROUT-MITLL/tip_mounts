@@ -21,25 +21,9 @@ permalink: /
         <strong>
           Anonymous Authors
         </strong>
-      <!-- <p>
-        <strong>
-          <a href="https://nhanson.io/">Nathaniel Hanson<sup>1,2*</sup></a>, 
-          Austin Allison<sup>1*</sup>, 
-          Charles DiMarzio<sup>1</sup>, 
-          <a href="https://www.tpadir.info/">Taşkın Padır<sup>1,3</sup></a>, 
-          <a href="https://www.kristendorsey.com/">Kristen L. Dorsey<sup>1</sup></a>
-        </strong>
-      </p>
-      <p>
-        <sup>1</sup>Northeastern University, 
-        <sup>2</sup>MIT Lincoln Laboratory, 
-        <sup>3</sup>Amazon Robotics
-      </p>
-      <p>∗These authors contributed equally</p>
-      <p>Correspondence: nhanson2 [@] mit [.] edu</p> -->
     </div>
   </div>
-  <video width="600" controls>
+  <video width="1000" controls>
     <source src="media/gotta_grow_fast_v2.mp4" type="video/mp4">
   </video>
 
@@ -51,13 +35,6 @@ permalink: /
   To quantitatively evaluate mount performance, we introduce a custom testbed that isolates tip-mounting effects by measuring tail tension during eversion. Comparative experiments across multiple mount variants, including prior designs, show that our triangular roller mount achieves the lowest tail tension and most repeatable growth performance.
   These results establish both a validated tip-mount design and a repeatable benchmarking framework for advancing sensor and tool integration in soft growing robots.
   </p>
-
-  <div style="text-align: center;">
-    <figure>
-      <img src="./media/tip_mount.png" alt="Mount Overview">
-      <figcaption>Mount Overview</figcaption>
-    </figure>
-  </div>
 </body>
 </html>
 ---

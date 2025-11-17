@@ -18,6 +18,9 @@ callouts:
     title: Warning
     color: red
 
+disable_js: true
+
+
 aux_links:
   "CAD Files":
     - "https://github.com/SPROUT-MITLL/tip_mounts"

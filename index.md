@@ -1,8 +1,41 @@
 <html lang="en-US">
 <head>
+<style>
+    body {
+      display: flex;
+      justify-content: center; /* center horizontally */
+      align-items: center;     /* center vertically */
+      height: 100vh;           /* full viewport height */
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px; /* space between buttons */
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 16px;
+      text-decoration: none;  /* remove underline */
+      text-align: center;
+      border: none;
+      border-radius: 6px;
+      background-color: #007BFF;
+      color: white;
+      transition: background-color 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--<link rel="stylesheet" href="style.css">-->
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <title>Gotta Grow Fast: Optimized Tip Mount & Benchmarking Methods for Growing Vine Robots</title>
 </head>
 <body>
@@ -29,6 +62,10 @@
   To quantitatively evaluate mount performance, we introduce a custom testbed that isolates tip-mounting effects by measuring tail tension during eversion. Comparative experiments across multiple mount variants, including prior designs, show that our triangular roller mount achieves the lowest tail tension and most repeatable growth performance.
   These results establish both a validated tip-mount design and a repeatable benchmarking framework for advancing sensor and tool integration in soft growing robots.
   </p>
+
+  <div class="button-container">
+    <a href="./BoM.md" class="btn">Bill of Materials</a>
+    <a href="./Build_Instructions.md" class="btn">CAD</a>
+  </div>
 </body>
 </html>
----

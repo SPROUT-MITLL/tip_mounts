@@ -7,8 +7,6 @@ nav_order: 3
 
 # CAD Files
 
-## Camera Mount
-Coming Soon
+## [Tip Mount](./CAD/tip_mount/)
 
-## Testbed
-Coming Soon
+## [Testbed](./CAD/test_bed/)

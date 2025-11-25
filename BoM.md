@@ -6,19 +6,16 @@ nav_order: 2
 
 ## Bill of Materials - Camera Mount
 
-#### Coming Soon!
+| Item No. | Part Name / Description                                | Part Number | Qty | Manufacturer | Supplier | Unit Cost | Link                                                      | Notes                         |
+|----------|---------------------------------------------------------|-------------|-----|--------------|----------|-----------|-----------------------------------------------------------|-------------------------------|
+| 1        | PTFE Balls, 1" Diameter                                 | 9660K33     | 2   | –            | McMaster | $5.84     | https://www.mcmaster.com/9660K33/                         |                               |
+| 2        | PTFE Rod, 3/4" Diameter, 2 ft Long                      | 8546K15     | 1   | –            | McMaster | $22.68    | https://www.mcmaster.com/8546k15/                         | For machining large rollers   |
+| 3        | PTFE Rod, 1/2" Diameter, 2 ft Long                      | 8546K13     | 1   | –            | McMaster | $10.24    | https://www.mcmaster.com/8546K13/                         | For machining small rollers   |
+| 4        | 3 mm Carbon Fiber Rod, 200 mm Long (Pack of 5)          | B09XHJMH72  | 1   | –            | Amazon   | $8.99     | https://www.amazon.com/ARRIS-200MM-Inches-Carbon-Airplane/dp/B09XHJMH72/ |                               |
+| 5        | Set Screw Collar, for 3 mm Shaft Diameter               | 6056N11     | 2   | –            | McMaster | $2.00     | https://www.mcmaster.com/6056N11/                         |                               |
 
-| Item No. | Part Name / Description | Part Number | Qty | Manufacturer | Supplier | Unit Cost |     Link    | Notes |
-|----------|--------------------------|-------------|-----|--------------|----------|-----------|------------|-------|
-| 1        |                          |             |     |              |          |           |            |       |
-| 2        |                          |             |     |              |          |           |            |       |
-| 3        |                          |             |     |              |          |           |            |       |
-| 4        |                          |             |     |              |          |           |            |       |
-| 5        |                          |             |     |              |          |           |            |       |
 
 ## Bill of Materials - Testbed
-
-#### Coming Soon!
 
 | Item No. | Part Name / Description                                                             | Part Number | Qty | Manufacturer | Supplier | Unit Cost |Link                                                  | Notes                                      |
 |----------|--------------------------------------------------------------------------------------|-------------|-----|--------------|----------|-----------|---------------------------------------------------------------------------|----------------------------------------------------|

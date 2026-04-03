@@ -36,12 +36,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="style.css"> -->
-  <title>Gotta Grow Fast: Optimized Tip Mount & Benchmarking Methods for Growing Vine Robots</title>
+  <title>Design and Benchmarking of a Tip Mount for High-Speed Vine Robots</title>
 </head>
 <body>
   <div class="header-adder">
     <div class="title_set">
-      <h1>Gotta Grow Fast: Optimized Tip Mount & Benchmarking Methods for Growing Vine Robots</h1>
+      <h1>Gotta Grow Fast: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots</h1>
     </div>
     <div class="names">
         <strong>
@@ -51,7 +51,7 @@
     <p><p>
   </div>
   <video width="1000" controls>
-    <source src="media/gotta_grow_fast_v2.mp4" type="video/mp4">
+    <source src="media/gotta_grow_fast_video_final_revision_L.mp4" type="video/mp4">
   </video>
 
 

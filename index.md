@@ -1,71 +1,48 @@
-<html lang="en-US">
-<head>
-<style>
-    body {
-      display: flex;
-      justify-content: center; /* center horizontally */
-      align-items: center;     /* center vertically */
-      height: 100vh;           /* full viewport height */
-      margin: 0;
-      font-family: sans-serif;
-      background-color: #f0f0f0;
-    }
+---
+layout: default
+title: Gotta Grow Fast
+---
+<h1>Gotta Grow Fast: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots</h1>
 
-    .button-container {
-      display: flex;
-      gap: 20px; /* space between buttons */
-    }
+**Antonio Alvarez Valdivia**<sup>1</sup>, **Robert Reeve**<sup>1</sup>, **Ankush Dhawan**<sup>1,2</sup>, **Ciera McFarland**<sup>3</sup>, **Chad Council**<sup>1</sup>, **Margaret McGuinness**<sup>3</sup>, and **Nathaniel Hanson**<sup>1</sup>
 
-    .btn {
-      display: inline-block;
-      padding: 12px 24px;
-      font-size: 16px;
-      text-decoration: none;  /* remove underline */
-      text-align: center;
-      border: none;
-      border-radius: 6px;
-      background-color: #007BFF;
-      color: white;
-      transition: background-color 0.2s;
-    }
+<sup>1</sup>Lincoln Laboratory, Massachusetts Institute of Technology, Lexington, Massachusetts, USA  
+<sup>2</sup>Stanford University, Stanford, California, USA  
+<sup>3</sup>University of Notre Dame, Notre Dame, Indiana, USA
 
-    .btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="style.css"> -->
-  <title>Design and Benchmarking of a Tip Mount for High-Speed Vine Robots</title>
-</head>
-<body>
-  <div class="header-adder">
-    <div class="title_set">
-      <h1>Gotta Grow Fast: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots</h1>
-    </div>
-    <div class="names">
-        <strong>
-          Anonymous Authors
-        </strong>
-    </div>
-    <p><p>
-  </div>
-  <video width="1000" controls>
+Correspondence: nhanson2 [@] mit [.] edu
+
+<div style="text-align: center; margin: 20px 0;">
+  <video width="100%" controls style="max-width: 1000px;">
     <source src="media/gotta_grow_fast_video_final_revision_L.mp4" type="video/mp4">
   </video>
+</div>
 
+## Abstract
 
-  <h2>Abstract</h2>
-  <p>
-  Soft, growing vine robots extend through tip eversion, a mechanism that enables navigation through cluttered environments. However, integrating cameras and other sensors at the tip is uniquely challenging because the material forming the tip is constantly renewed as the robot grows. This continual material turnover, combined with friction between internal layers, added tip weight, and fabric constriction, complicates sensor and tool mounting. These limitations hinder the deployment of vine robots for inspection and search tasks, where rapid growth while carrying tip-mounted sensors is essential.
-  In this work, we present a triangular roller tip mount that reduces internal resistance during growth by rolling rather than sliding against the robot body. The design was refined through iterative failure analysis, enabling, for the first time, consistent eversion on a TPU-coated ripstop nylon vine robot.
-  To quantitatively evaluate mount performance, we introduce a custom testbed that isolates tip-mounting effects by measuring tail tension during eversion. Comparative experiments across multiple mount variants, including prior designs, show that our triangular roller mount achieves the lowest tail tension and most repeatable growth performance.
-  These results establish both a validated tip-mount design and a repeatable benchmarking framework for advancing sensor and tool integration in soft growing robots.
-  </p>
+Soft, growing vine robots extend through tip eversion, a mechanism that enables navigation through cluttered environments. However, integrating cameras and other sensors at the tip is uniquely challenging because the material forming the tip is constantly renewed as the robot grows. This continual material turnover, combined with friction between internal layers, added tip weight, and fabric constriction, complicates sensor and tool mounting. These limitations hinder the deployment of vine robots for inspection and search tasks, where rapid growth while carrying tip-mounted sensors is essential.
 
-  <div class="button-container">
-    <a href="./BoM.md" class="btn">Bill of Materials</a>
-    <a href="./Build_Instructions.md" class="btn">CAD</a>
-  </div>
-</body>
-</html>
+In this work, we present a triangular roller tip mount that reduces internal resistance during growth by rolling rather than sliding against the robot body. The design was refined through iterative failure analysis, enabling, for the first time, consistent eversion on a TPU-coated ripstop nylon vine robot.
+
+To quantitatively evaluate mount performance, we introduce a custom testbed that isolates tip-mounting effects by measuring tail tension during eversion. Comparative experiments across multiple mount variants, including prior designs, show that our triangular roller mount achieves the lowest tail tension and most repeatable growth performance.
+
+These results establish both a validated tip-mount design and a repeatable benchmarking framework for advancing sensor and tool integration in soft growing robots.
+
+<!-- [Bill of Materials](./BoM.md){: .btn .btn-primary } -->
+<!-- [CAD](./Build_Instructions.md){: .btn .btn-primary } -->
+
+<hr>
+
+**Paper on arXiv**: Coming soon
+
+If you use or reference our design, please include a citation to our paper:
+
+```bibtex
+@misc{hanson2025gottaGrowFast,
+      title={Gotta Grow Fast: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots},
+      author={Antonio Alvarez Valdivia and Robert Reeve and Ankush Dhawan and Ciera McFarland and Chad Council and Margaret McGuinness and Nathaniel Hanson},
+      year={2026},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```

@@ -21,13 +21,21 @@ callouts:
 disable_js: true
 
 
-aux_links:
-  "CAD Files":
-    - "https://github.com/SPROUT-MITLL/tip_mounts"
+# aux_links:
+#   "CAD Files":
+#     - "./Build_Instructions"
+#   "Bill of Materials":
+#     - "./BoM"
 
 nav_external_links:
   - title: Mounts on GitHub
     url: https://github.com/SPROUT-MITLL/tip_mounts
+
+  - title: CAD Files
+    url: ./Build_Instructions
+
+  - title: Bill of Materials
+    url: ./BoM
 
 back_to_top: true
 back_to_top_text: "Back to top"

@@ -14,7 +14,7 @@ Correspondence: nhanson2 [@] mit [.] edu
 
 <div style="text-align: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 1000px;">
-    <source src="media/gotta_grow_fast_video_final_revision_L.mp4" type="video/mp4">
+    <source src="media/gotta_grow_fast_video_RAL_compressed.mp4" type="video/mp4">
   </video>
 </div>
 

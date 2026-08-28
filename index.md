@@ -2,7 +2,7 @@
 layout: default
 title: Gotta Grow Fast
 ---
-<h1>Gotta Grow Fast: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots</h1>
+<h1><em>Gotta Grow Fast</em>: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots</h1>
 
 **Antonio Alvarez Valdivia**<sup>1</sup>, **Robert Reeve**<sup>1</sup>, **Ankush Dhawan**<sup>1,2</sup>, **Ciera McFarland**<sup>3</sup>, **Chad Council**<sup>1</sup>, **Margaret McGuinness**<sup>3</sup>, and **Nathaniel Hanson**<sup>1</sup>
 
@@ -17,6 +17,10 @@ Correspondence: nhanson2 [@] mit [.] edu
     <source src="media/gotta_grow_fast_video_RAL_compressed.mp4" type="video/mp4">
   </video>
 </div>
+
+### 3D Preview: Camera Mount
+
+{% include stl-viewer.html src="/media/camera_mount.stl" id="home-camera-mount-viewer" %}
 
 ## Abstract
 
@@ -33,16 +37,21 @@ These results establish both a validated tip-mount design and a repeatable bench
 
 <hr>
 
-**Paper on arXiv**: Coming soon
+[Paper on arXiv](https://arxiv.org/abs/2606.06040){: .btn .btn-primary .mr-2 }
+[Paper on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11592424/){: .btn .btn-primary }
 
 If you use or reference our design, please include a citation to our paper:
 
 ```bibtex
-@misc{hanson2025gottaGrowFast,
-      title={Gotta Grow Fast: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots},
-      author={Antonio Alvarez Valdivia and Robert Reeve and Ankush Dhawan and Ciera McFarland and Chad Council and Margaret McGuinness and Nathaniel Hanson},
-      year={2026},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-}
+@article{valdivia2026fast,
+  author={Valdivia, Antonio Alvarez and Reeve, Robert and Dhawan, Ankush and McFarland, Ciera and Council, Chad and McGuinness, Margaret and Hanson, Nathaniel},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Gotta Grow Fast: Design and Benchmarking of a Tip Mount for High-Speed Vine Robots}, 
+  year={2026},
+  volume={11},
+  number={8},
+  pages={9827-9834},
+  keywords={Design methodology;Robots;Friction;Fabrics;Tail;Contacts;Force;Geometry;Materials;Resistance;Soft robot materials and design;soft robot applications;search and rescue robots;vine robots},
+  doi={10.1109/LRA.2026.3709052}}
+
 ```

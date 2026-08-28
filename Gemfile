@@ -2,9 +2,10 @@
 
 source "https://rubygems.org"
 
-gem "rails"
-#gem "jekyll"
-gem "nokogiri"
-gem "yajl-ruby", "1.4.3"
-gem "github-pages", "228", group: :jekyll_plugins
+gem "jekyll"
 gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-remote-theme"
+  gem "jekyll-seo-tag"
+end

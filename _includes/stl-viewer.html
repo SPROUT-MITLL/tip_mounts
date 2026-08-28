@@ -1,0 +1,80 @@
+<!-- Client-side STL preview (three.js via CDN), works on static GitHub Pages hosting -->
+<div id="{{ include.id | default: 'stl-viewer' }}" style="width: 100%; max-width: {{ include.max-width | default: '700px' }}; height: {{ include.height | default: '400px' }}; margin: 20px auto; border: 1px solid #d0d7de; border-radius: 6px; position: relative;">
+  <div class="stl-viewer-status" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #666; font-size: 0.9em;">Loading 3D preview&hellip;</div>
+</div>
+
+<script type="importmap">
+  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+</script>
+<script type="module">
+  import * as THREE from 'three';
+  import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/loaders/STLLoader.js';
+  import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js';
+
+  const container = document.getElementById('{{ include.id | default: 'stl-viewer' }}');
+  const statusEl = container.querySelector('.stl-viewer-status');
+
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0xf6f8fa);
+
+  const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.1, 1000);
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  container.appendChild(renderer.domElement);
+
+  scene.add(new THREE.AmbientLight(0xffffff, 0.6));
+  const keyLight = new THREE.DirectionalLight(0xffffff, 0.8);
+  keyLight.position.set(1, 1, 1);
+  scene.add(keyLight);
+  const fillLight = new THREE.DirectionalLight(0xffffff, 0.4);
+  fillLight.position.set(-1, -0.5, -1);
+  scene.add(fillLight);
+
+  const controls = new OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+
+  new STLLoader().load(
+    '{{ include.src }}',
+    (geometry) => {
+      statusEl.remove();
+
+      geometry.center();
+      geometry.computeBoundingBox();
+      geometry.computeVertexNormals();
+
+      const material = new THREE.MeshStandardMaterial({ color: 0x8a9bb5, metalness: 0.1, roughness: 0.6 });
+      const mesh = new THREE.Mesh(geometry, material);
+      scene.add(mesh);
+
+      const size = geometry.boundingBox.getSize(new THREE.Vector3());
+      const maxDim = Math.max(size.x, size.y, size.z) || 1;
+      const distance = maxDim * 2;
+      camera.position.set(distance, distance, distance);
+      camera.near = distance / 100;
+      camera.far = distance * 100;
+      camera.updateProjectionMatrix();
+      controls.target.set(0, 0, 0);
+      controls.update();
+    },
+    undefined,
+    (error) => {
+      statusEl.textContent = 'Unable to load 3D preview.';
+      console.error('STL load error:', error);
+    }
+  );
+
+  function resize() {
+    camera.aspect = container.clientWidth / container.clientHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(container.clientWidth, container.clientHeight);
+  }
+  window.addEventListener('resize', resize);
+
+  (function animate() {
+    requestAnimationFrame(animate);
+    controls.update();
+    renderer.render(scene, camera);
+  })();
+</script>

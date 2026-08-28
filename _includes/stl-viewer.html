@@ -36,7 +36,7 @@
   controls.enableDamping = true;
 
   new STLLoader().load(
-    '{{ include.src }}',
+    '{{ include.src | relative_url }}',
     (geometry) => {
       statusEl.remove();
 
